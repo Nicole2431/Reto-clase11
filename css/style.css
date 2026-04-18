@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FDE2E4;
+    font-family: 'Poppins', sans-serif;
+}
+.hs{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.top-banner{
+    background-color: #FDE2E4;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: #6D597A;
+    font-weight: bold;
+}
+header{
+    background-color: #F8C8DC;
+    text-align: center;
+    padding: 30px;
+    color: #4c4141;
+}
+h1{
+    font-size: 47px;
+}
+h3{
+    color: #6D597A;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: #BDE0FE;
+}
+.nav a{
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+    font-size: 16px;
+
+}
+.nav a:hover{
+    color: #ff6f91;
+}
+.st-nav{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.st-nav p{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.st-nav p ul{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.side{
+    flex: 1;
+    background-color: #F8C8DC;
+    padding: 20px;
+    border-radius: 15px;
+}
+.principal{
+    flex: 2;
+    background-color: #E6D6F2;
+    padding: 20px;
+    border-radius: 15px;
+}
+h2{
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+ul{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.img-side img,
+.img-principal img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.segundas img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.Tercera-seccion{
+    flex: 100%; 
+    background-color: #FFF9FB;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+footer{
+    background-color: #A2D2FF;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 700px){
+    .container{
+        flex-direction: column;
+    }
+
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
